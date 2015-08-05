@@ -1,3 +1,5 @@
+// TODO: move this into a flux architecture, add jest and tests.
+
 var CommentBox = React.createClass({
     loadCommentsFromServer: function() {
         $.ajax({
